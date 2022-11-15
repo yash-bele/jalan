@@ -58,12 +58,12 @@ const Alarm = () => {
       <main className='absolute w-full h-full flex justify-center items-start'>
         <Link
           href='/'
-          className='absolute top-5 right-10 flex items-center duration-200 font-semibold text-slate-500 hover:text-slate-700'
+          className='absolute top-5 right-5 sm:right-10 flex items-center duration-200 font-semibold text-slate-500 hover:text-slate-700'
         >
           <p className='mr-2 tracking-wide'>Solution1</p>
           <BsArrowLeftCircle className='text-2xl' />
         </Link>
-        <section className='mt-10'>
+        <section className='mt-20'>
           <div className='text-center mb-10'>
             <h1 className='text-5xl mb-1 text-slate-700'>{date.format1}</h1>
             <p className='text-sm text-slate-500'>{date.format3}</p>

@@ -23,10 +23,10 @@ const Home = () => {
           href='https://cdn-icons-png.flaticon.com/512/2752/2752499.png'
         />
       </Head>
-      <main className='absolute w-full h-full flex items-center justify-center bg-slate-200'>
+      <main className='absolute w-full h-full flex items-center justify-center'>
         <Link
           href='/alarm'
-          className='absolute top-5 right-10 flex items-center duration-200 font-semibold text-slate-500 hover:text-slate-700'
+          className='absolute top-5 right-5 sm:right-10 flex items-center duration-200 font-semibold text-slate-500 hover:text-slate-700'
         >
           <p className='mr-2 tracking-wide'>Solution2</p>
           <BsArrowRightCircle className='text-2xl' />
