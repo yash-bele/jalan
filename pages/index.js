@@ -31,7 +31,7 @@ const Home = () => {
           <p className='mr-2 tracking-wide'>Solution2</p>
           <BsArrowRightCircle className='text-2xl' />
         </Link>
-        <pre className='p-5 pb-6 sm:pb-5 bg-slate-900 text-white rounded-md duration-200 shadow-md hover:shadow-lg relative overflow-x-scroll w-11/12 text-sm sm:text-base sm:w-auto sm:overflow-auto scrollbar scrollbar-thin scrollbar-thumb-slate-400 scrollbar-thumb-rounded-md hover:scrollbar-thumb-slate-200'>
+        <pre className='p-5 bg-slate-900 text-white rounded-md duration-200 shadow-md hover:shadow-lg relative overflow-x-scroll w-11/12 text-sm sm:text-base sm:w-auto sm:overflow-auto scrollbar scrollbar-thin scrollbar-thumb-slate-400 scrollbar-thumb-rounded-md hover:scrollbar-thumb-slate-200'>
           <BsClipboard
             onClick={handleClick}
             className='absolute right-2.5 top-2 cursor-pointer text-lg hidden sm:block'
