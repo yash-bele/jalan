@@ -23,15 +23,15 @@ const Home = () => {
           href='https://cdn-icons-png.flaticon.com/512/2752/2752499.png'
         />
       </Head>
-      <main className='absolute w-full h-full flex items-center justify-center'>
+      <main className='absolute w-full h-full flex items-center justify-center bg-slate-700'>
         <Link
           href='/alarm'
-          className='absolute top-5 right-5 sm:right-10 flex items-center duration-200 font-semibold text-slate-500 hover:text-slate-700'
+          className='absolute top-5 right-5 sm:right-10 flex items-center font-semibold text-white'
         >
           <p className='mr-2 tracking-wide'>Solution2</p>
           <BsArrowRightCircle className='text-2xl' />
         </Link>
-        <pre className='p-5 bg-slate-100 rounded-md duration-200 shadow-md hover:shadow-lg relative overflow-x-scroll w-11/12 text-sm sm:text-base sm:w-auto sm:overflow-auto scrollbar scrollbar-thin scrollbar-thumb-slate-300 scrollbar-thumb-rounded-md hover:scrollbar-thumb-slate-400'>
+        <pre className='p-5 bg-slate-900 text-white rounded-md duration-200 shadow-md hover:shadow-lg relative overflow-x-scroll w-11/12 text-sm sm:text-base sm:w-auto sm:overflow-auto scrollbar scrollbar-thin scrollbar-thumb-slate-400 scrollbar-thumb-rounded-md hover:scrollbar-thumb-slate-200'>
           <BsClipboard
             onClick={handleClick}
             className='absolute right-2.5 top-2 cursor-pointer text-lg hidden sm:block'
