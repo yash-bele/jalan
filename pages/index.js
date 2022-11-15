@@ -56,7 +56,7 @@ const Home = () => {
           pauseOnFocusLoss
           draggable
           pauseOnHover={false}
-          theme='light'
+          theme='dark'
         />
       </main>
     </>
